@@ -1,7 +1,7 @@
 var num = 1000
 
 setInterval(function(){ 
-  $.post("/api/catalog/favourite", {id: randomIntFromInterval(5000, 10000), csrf: "your csrf token"}, function (data) {
+  $.post("/api/catalog/favourite", {id: num, csrf: "your csrf token"}, function (data) {
     if (data == "success") {
       num=num+1
     } else {
