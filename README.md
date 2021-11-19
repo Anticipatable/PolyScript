@@ -1,4 +1,6 @@
-# PolyScript
+![PolyScript](https://github.com/Anticipatable/PolyScript/blob/main/101.png)
+
+# How I Came Up With This
 So uh one day I got bored and was on Polytoria then I was like hey I should make some sorta script! So Here it is. Your welcome lmao
 
 # Installation
