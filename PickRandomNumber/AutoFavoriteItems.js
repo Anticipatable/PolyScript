@@ -5,7 +5,7 @@ function randomIntFromInterval(min, max) { // min and max included
 setInterval(function(){ 
   $.post("/api/catalog/favourite", {id: randomIntFromInterval(5000, 10000), csrf: "your csrf token"}, function (data) {
     if (data == "success") {
-      LoadFavourites();
+      //LoadFavourites();
     } else {
       console.error("Couldn't favourite item: " + data);
     }
