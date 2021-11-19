@@ -6,6 +6,7 @@ setInterval(function(){
       num=num+1
     } else {
       num=num+1
+      console.log(`Error - ${data}`)
     }
   })
 }, 100);
