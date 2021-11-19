@@ -1,4 +1,4 @@
-var num = 1
+var num = 1000
 
 setInterval(function(){ 
   $.post("/api/catalog/favourite", {id: randomIntFromInterval(5000, 10000), csrf: "your csrf token"}, function (data) {
