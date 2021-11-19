@@ -1,14 +1,12 @@
 num = 1
 
 setInterval(function(){ 
-    $.post("/api/users/removefriend", { "csrf" : "your csrf token", "id": randomIntFromInterval(1, 157030)}, function(data) {
+    $.post("/api/users/removefriend", { "csrf" : "your csrf token", "id": num}, function(data) {
       if (data == "success") {
-       //LoadFriendButton();
-num=num+1
+        num=num+1
       } else {
-num=num+1
-        console.log("Error")
-        //alert(data);
+        num=num+1
+        console.log(`Error - ${data}`)
       }
     });
 }, 100);
