@@ -7,8 +7,7 @@ setInterval(function(){
        //LoadFriendButton();
       } else {
         num=num+1
-        console.log("Error")
-        //alert(data);
+        console.log(`Error - ${data}`)
       }
     });
 }, 100);
