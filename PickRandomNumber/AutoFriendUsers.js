@@ -6,8 +6,7 @@ setInterval(function(){
       if (data == "success") {
        //LoadFriendButton();
       } else {
-        console.log("Error")
-        //alert(data);
+        console.log(`Error - ${data}`)
       }
     });
 }, 100);
