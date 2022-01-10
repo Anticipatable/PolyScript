@@ -1,4 +1,4 @@
-const friendTo = 17000
+const unfriendTo = 17000
 const csrf = "idk";
 
 async function unfriend(id){
@@ -22,6 +22,6 @@ await fetch("https://polytoria.com/api/users/removefriend", {
 });
 }
 
-for ( let iterator = 0; iterator<friendTo; iterator++) {
+for ( let iterator = 0; iterator<unfriendTo; iterator++) {
   unfriend(iterator).then((finished) => console.log("Unfriended %d", iterator));
 }
