@@ -1,4 +1,5 @@
 var num = 1000
+const csrf = "idk";
 
 async function favorite(id){
 await fetch("https://polytoria.com/api/catalog/favourite", {
